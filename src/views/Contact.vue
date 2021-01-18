@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
   #contact {
     background-color: #F3E5F5;
     height: 100%;

@@ -2,7 +2,7 @@
   <div class="TextAnime1">
     <p
       v-for="(t, index) in text"
-      :key="index"
+      :key="`first-${index}`"
       class="item"
       :style="{animationDelay: index*100+'ms'}"
       v-text="t"
@@ -10,7 +10,7 @@
       <br class="is-sp">
     <p
       v-for="(t, index) in text2"
-      :key="index"
+      :key="`second-${index}`"
       class="item"
       :style="{animationDelay: index*100+'ms'}"
       v-text="t"
@@ -21,6 +21,7 @@
 <script>
 
 export default {
+  name: 'HelloAnime',
   data() {
     return {
       text : `Kana's `,
@@ -42,12 +43,12 @@ export default {
 .item {
   display: inline-block;
   min-width: 0.3em;
-  font-size: 70px;
+  font-size: 60px;
   animation: text-in 3s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
   
 
   @include mq(sm) {
-    font-size: 40px;
+    font-size: 35px;
   } 
 }
 </style>

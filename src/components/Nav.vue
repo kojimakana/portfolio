@@ -13,15 +13,15 @@
   </v-app-bar>
 
   <v-navigation-drawer
-      v-model="drawer" absolute left temporary>
-      <v-list nav dense>
+      v-model="drawer" absolute left temporary class="sp-nav">
+      <v-list nav>
         <v-list-item-group
           v-model="group"
           active-class="deep-purple--text text--accent-4">
           <v-list-item>
             <v-list-item-title> 
               <router-link to="/" class="nav-link">Home</router-link>
-          </v-list-item-title>
+            </v-list-item-title>
           </v-list-item>
 
           <v-list-item>
@@ -106,5 +106,9 @@ export default {
     &:hover {
       @extend .hoverChanged;
     }
+  }
+
+  .sp-nav {
+    position: fixed !important;
   }
 </style>

@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "assets/css/reset.css";
 @import "assets/css/style.scss";
 
@@ -37,4 +37,5 @@ export default {
     display: none !important;
   }
 }
+
 </style>
