@@ -47,6 +47,7 @@
             text:'HTML/CSS/jQuery/Sass/Bootstrap',
             img: require("@/assets/img/ISARA-copy.png"),
             btn: '画像を見る',
+            link: '/LPimage'
             }
         ]
       }
