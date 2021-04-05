@@ -1,24 +1,15 @@
-# portfolio
+# ポートフォリオサイト
+自身のポートフォリオサイトです。
 
-## Project setup
-```
-npm install
-```
+## URL
+https://kana-portfolio.work/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 使用技術
+Vue 2.6.11  
+Vuex 3.4.0  
+Vue Router 3.2.0  
+Vuetify 2.2.11  
+Firebase 8.2.2  
+HTML/CSS  
+JavaScript  
+Sass  
