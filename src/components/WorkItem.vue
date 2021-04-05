@@ -18,6 +18,7 @@
 
         <v-card-actions>
           <v-btn
+            :to="link"
             color="orange" text>
             {{ btn }}
           </v-btn>

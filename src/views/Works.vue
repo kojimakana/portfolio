@@ -10,6 +10,7 @@
       :text="item.text"
       :img="item.img"
       :btn="item.btn"
+      :link="item.link"
       ></WorkItem>
 
     </v-container>
@@ -32,7 +33,8 @@
             subtitle:'読書習慣をつけたい人、読書を振り返りたい人のための  シンプルな『読書記録アプリ』です。',
             text:'HTML/CSS/JavaScript/Sass/Vue.js/Vuex/Vuetify/Firebase',
             img: require("@/assets/img/reading-memo.png"),
-            btn: 'アプリを見る'
+            btn: 'アプリを見る',
+            link: 'https://reading-memo.xyz/'
             },
           { id:2,
             title:'ポートフォリオ',
