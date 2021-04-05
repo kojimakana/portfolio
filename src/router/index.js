@@ -29,7 +29,7 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
-  }
+  },
 ];
 
 const router = new VueRouter({
