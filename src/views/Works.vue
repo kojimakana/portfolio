@@ -28,10 +28,10 @@
       return {
         list: [
           { id:1,
-            title:'aaa',
-            subtitle:'Coming soon...',
-            text:'HTML/CSS/JavaScript/Sass/Vue.js/Vuetify/Firebase',
-            img: require("@/assets/img/ISARA-copy.png"),
+            title:'読書メモ',
+            subtitle:'読書習慣をつけたい人、読書を振り返りたい人のための  シンプルな『読書記録アプリ』です。',
+            text:'HTML/CSS/JavaScript/Sass/Vue.js/Vuex/Vuetify/Firebase',
+            img: require("@/assets/img/reading-memo.png"),
             btn: 'アプリを見る'
             },
           { id:2,

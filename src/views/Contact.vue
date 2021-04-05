@@ -2,8 +2,7 @@
   <div id="contact" class="contact bg-red">
     <h2 class="util-title">Contact</h2>
     <p class="text-center">
-    ご不明点、ご相談等ございましたらお気軽にお問い合わせください。<br>
-    下記フォーム、またはTwitterのDMにてお待ちしております。
+    ご不明点、ご相談等ございましたらお気軽にお問い合わせください。
     </p>
     <v-container>
       <v-row>
@@ -15,9 +14,6 @@
         <v-col cols="12" class="text-center">
           <v-btn href="https://github.com/kojimakana" target="_blank" text>
             <v-icon color="github" large>fab fa-github</v-icon>
-          </v-btn>
-          <v-btn href="https://twitter.com/Kana522813" target="_blank" text>
-            <v-icon color="twitter" large>fab fa-twitter</v-icon>
           </v-btn>
         </v-col>
       </v-row>
