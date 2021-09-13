@@ -11,14 +11,14 @@
       <transition name="fade-right" appear>
         <div class="mx-auto my-auto" lg="7" cols="12">
           <ul class="about-list">
-            <li class="about-item">Kana Kojima</li>
-            <li class="about-item">1997年生まれ</li>
+            <li class="about-item">小島 香菜</li>
+            <li class="about-item">1997年5月22日生まれ</li>
             <li class="about-item">埼玉県出身</li>
           </ul>
-          <p class="ml-5">
+          <!-- <p class="ml-5">
             2020年9月から独学でプログラミング学習開始。<br>
             フロントエンドエンジニアを目指し日々勉強中。
-          </p>
+          </p> -->
         </div>
       </transition>
       </v-row>
